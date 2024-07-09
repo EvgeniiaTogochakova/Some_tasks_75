@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+    background-color: lightgrey;
+}
+
+div.photo-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: slategrey;
+
+  img.photo {
+    width: 400px;
+  }
+
+  p.photographer_name {
+    font-size: 40px;
+    color: whitesmoke;
+  }
+
+  button.button_like {
+    background-color: mistyrose;
+    color: slategrey;
+    font-size: 50px;
+    border-radius: 25%;
+    border: 3px solid rosybrown;
+    width: 300px;
+    height: 150px;
+  }
+
+  button.clicked{
+    background-color: plum;
+    color:snow;
+  }
+
+  p.counter_likes {
+    font-size: 40px;
+    color: whitesmoke;
+  }
+}
+
+.history{
+  background-color: slategrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  gap:30px;
+  justify-content: center;
+  align-items: center;
+
+  button.show_history{
+    background-color: mistyrose;
+    color:slategrey;
+    font-size: 40px;
+    border: 3px solid rosybrown;
+    border-radius: 25%;
+    width: 300px;
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  button.previous,button.next{
+    background-color: mistyrose;
+    color:slategrey;
+    font-size: 20px;
+    border: 3px solid rosybrown;
+    border-radius: 50%;
+    width:200px;
+    height: 100px;
+  }
+
+  button.inactive{
+    background-color: grey;
+  }
+
+  .invisible{
+    display:none;
+  }
+
+}
